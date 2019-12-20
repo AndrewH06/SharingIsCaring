@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Translate-->
         <scene sceneID="h46-hW-kn1">
             <objects>
-                <viewController storyboardIdentifier="Translate" id="0DH-5f-wlw" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Translate" id="0DH-5f-wlw" customClass="Translate" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HJ4-bZ-hfO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,6 +29,10 @@
                                 <color key="textColor" red="0.88546332923972615" green="0.62156859900684935" blue="0.78663813821232864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools.png" translatesAutoresizingMaskIntoConstraints="NO" id="W6j-Fw-lAT">
+                                <rect key="frame" x="35" y="159" width="304" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0m-0J-QTB">
                                 <rect key="frame" x="137" y="185" width="106" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -36,6 +40,9 @@
                                 <state key="normal" title="translate">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="translateIt:" destination="0DH-5f-wlw" eventType="touchUpInside" id="X4h-xC-hvA"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6GB-Bi-RFC">
                                 <rect key="frame" x="-8" y="359" width="142" height="73"/>
@@ -195,21 +202,23 @@
                                 <color key="textColor" red="0.88546332920000004" green="0.62156859900000005" blue="0.78663813819999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="other" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVF-pS-669">
-                                <rect key="frame" x="161" y="538" width="58" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="reversed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVF-pS-669">
+                                <rect key="frame" x="146" y="538" width="89" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="22"/>
                                 <color key="textColor" red="0.88546332920000004" green="0.62156859900000005" blue="0.78663813819999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools.png" translatesAutoresizingMaskIntoConstraints="NO" id="W6j-Fw-lAT">
-                                <rect key="frame" x="35" y="159" width="304" height="162"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.96598488092422485" green="0.90470707416534424" blue="0.87452965974807739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="RIo-3g-pdV"/>
                     </view>
+                    <connections>
+                        <outlet property="flip" destination="bZx-Yl-bnu" id="3JO-dn-KX3"/>
+                        <outlet property="input" destination="2w4-SW-dBB" id="zH3-yE-E4c"/>
+                        <outlet property="pigl" destination="F4I-lA-6d4" id="hIH-99-d6j"/>
+                        <outlet property="sh" destination="ElD-by-ZuU" id="YyR-dy-zWR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iof-fw-uHP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

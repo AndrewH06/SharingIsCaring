@@ -11,16 +11,16 @@
 
 @implementation Translate
 
-@synthesize input, pigl, sh, other;
+@synthesize input, pigl, sh, flip;
 
-- (IBAction)reverseIt:(id)sender {
+- (IBAction)translateIt:(id)sender {
   const char *cInput = [input.text UTF8String];
   long inputLength = input.text.length;
-    // piglatin
+    // pig latin
   pigl.text = [NSString stringWithFormat:@"%s" , revXArray((char*)cInput, inputLength)];
     // short hand
   sh.text = [NSString stringWithFormat:@"%s" , revXRecurse((char*)cInput, inputLength)];
     // other
-  other.text = [NSString stringWithFormat:@"%s" , revXPointer((char*)cInput, inputLength)];
+  flip.text = [NSString stringWithFormat:@"%s" , revXPointer((char*)cInput, inputLength)];
 }
 @end
