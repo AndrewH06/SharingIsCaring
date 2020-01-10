@@ -14,13 +14,8 @@
 @synthesize input, pigl, sh, flip;
 
 - (IBAction)translateIt:(id)sender {
-  const char *cInput = [input.text UTF8String];
-  long inputLength = input.text.length;
-    // pig latin
-  pigl.text = [NSString stringWithFormat:@"%s" , revXArray((char*)cInput, inputLength)];
-    // short hand
-  sh.text = [NSString stringWithFormat:@"%s" , revXRecurse((char*)cInput, inputLength)];
-    // other
-  flip.text = [NSString stringWithFormat:@"%s" , revXPointer((char*)cInput, inputLength)];
+    // rev
+  flip.text = [NSString stringWithFormat:@"%s" , flipPhrase(input.text.UTF8String)];
 }
+
 @end

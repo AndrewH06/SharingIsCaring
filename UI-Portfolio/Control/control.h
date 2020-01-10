@@ -53,21 +53,12 @@ char *revXRecurse(char* input, long length);
 char *revXPointer( char* input, long length);
 char *paliEval( char* input, long length);
 char *phrase(char* input, long legnth);
-
-
-typedef struct words {
-    char word[BUFFER_SIZE];
-    char fliper[BUFFER_SIZE];
-    char pigler[BUFFER_SIZE];
-    char sher[BUFFER_SIZE];
-} WORDS;
-
-typedef struct phrases {
-    char original[LINE_BUFFER_SIZE];
-    char pigl[LINE_BUFFER_SIZE];
-    char sh[LINE_BUFFER_SIZE];
-    char flip[LINE_BUFFER_SIZE];
-    WORDS words[WORDS_TO_LINE_SIZE];
-} PHRASE;
+char *pigl(char* input, long legnth);
+char *sh(char* input, long legnth);
+char *flip(char* input, long legnth);
+char *flipPhrase(const char * str);
+void tokentest(void);
+char *flipWord(char *word);
 
 #endif /* control_h */
+
