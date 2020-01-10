@@ -32,12 +32,25 @@ void tokentest(){
   // printf ("%s", reversePhrase(str));
 }
 
+char *flipWord(char *str)
+{
+  unsigned long len = strlen(str);
+  int i;
+  for (i=0; i<len/2; i++)
+  {
+    char temp = str[i];
+    str[i]=str[len-1-i];
+    str[len-1-i]=temp;
+  }
+  return str;
+}
+
 char *flipPhrase(const char * str) {
  const char *tokenizer = " ";
   
  long i = 0;
- char *token = strtok((char *)str, tokenizer);     // 1st word
- while( token != NULL ) {        // NULL mean end of phrase
+    char *token = strtok((char *)str, tokenizer);
+ while( token != NULL ) {
   printf( "word after tokenizing: %s\n", token );
   strcpy(in.words[i].word, token);
   printf("word in structure %li: %s\n", i, in.words[i].word);
@@ -54,23 +67,9 @@ char *flipPhrase(const char * str) {
    }
    printf("phrase reversed: %s\n", in.reversed);
     
-   token = strtok(NULL, tokenizer);      // remaining words, NULL means same phrase
+   token = strtok(NULL, tokenizer);
    i++;
      
  }
  return in.reversed;
-}
-char *flipWord(char *str)
-{
-  unsigned long len = strlen(str);
-  int i;
-  for (i=0; i<len/2; i++)
-  {
-    //printf("swap %c with %c\n", word[i], word[len-1-i]);
-    char temp = str[i];
-    str[i]=str[len-1-i];
-    str[len-1-i]=temp;
-  }
-  //printf("%s\n",word);
-  return str;
 }
