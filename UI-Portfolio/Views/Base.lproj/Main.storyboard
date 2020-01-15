@@ -47,6 +47,16 @@
             </objects>
             <point key="canvasLocation" x="1674" y="191"/>
         </scene>
+        <!--Golf-->
+        <scene sceneID="uEl-xA-b8a">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Golf" referencedIdentifier="Golf" id="Ibx-N0-aaM" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="CVk-Kf-KnG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KaC-gZ-8bJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1640" y="253"/>
+        </scene>
         <!--Square-->
         <scene sceneID="7Cm-np-xbS">
             <objects>
@@ -223,9 +233,12 @@
                                 <rect key="frame" x="25" y="427" width="103" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="13"/>
-                                <state key="normal" title="TBD">
+                                <state key="normal" title="Golf">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Ibx-N0-aaM" kind="show" id="fCP-5t-zsy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
