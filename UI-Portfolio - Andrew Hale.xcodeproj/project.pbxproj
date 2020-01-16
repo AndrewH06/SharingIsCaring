@@ -22,6 +22,9 @@
 		85B55EA123737D5B0079E50F /* Calc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B55EA023737D5B0079E50F /* Calc.storyboard */; };
 		85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */; };
 		85B55EA6237386760079E50F /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B55EA5237386760079E50F /* CalcController.m */; };
+		85BF63CF23D11DBE00FAC0CC /* 29538221482_ee491e45df_o.png in Resources */ = {isa = PBXBuildFile; fileRef = 85BF63CE23D11DBE00FAC0CC /* 29538221482_ee491e45df_o.png */; };
+		85BF63D323D1214C00FAC0CC /* golf_PNG32-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 85BF63D223D1214C00FAC0CC /* golf_PNG32-2.png */; };
+		85BF63D523D122C300FAC0CC /* golf hoel.png in Resources */ = {isa = PBXBuildFile; fileRef = 85BF63D423D122C300FAC0CC /* golf hoel.png */; };
 		85C627E02395C78A00D0D8A2 /* ArraySwap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C627DF2395C78A00D0D8A2 /* ArraySwap.storyboard */; };
 		85C6B3A62397245E003469DC /* ArraySwap.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6B3A52397245E003469DC /* ArraySwap.m */; };
 		85C7C59E237CAE1100386661 /* square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85C7C59D237CAE1100386661 /* square.jpg */; };
@@ -33,7 +36,6 @@
 		85CDE3252374D5C500EB461B /* monkeys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3242374D5C500EB461B /* monkeys.jpg */; };
 		85F0D11823CFC4510010E4CF /* Golf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F0D11723CFC4510010E4CF /* Golf.storyboard */; };
 		85F0D11D23CFC8CB0010E4CF /* GolfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F0D11C23CFC8CB0010E4CF /* GolfController.m */; };
-		85F0D12123CFCD470010E4CF /* Untitled drawing-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 85F0D12023CFCD460010E4CF /* Untitled drawing-2.png */; };
 		85FFCBC623A2F56500C5C098 /* translate.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FFCBC523A2F56500C5C098 /* translate.c */; };
 		85FFCBC823A2F59600C5C098 /* Translate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FFCBC723A2F59600C5C098 /* Translate.storyboard */; };
 		85FFCBCC23A2FAA400C5C098 /* output-onlinepngtools.png in Resources */ = {isa = PBXBuildFile; fileRef = 85FFCBCB23A2FAA400C5C098 /* output-onlinepngtools.png */; };
@@ -64,6 +66,9 @@
 		85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "EasyDopeyLeafbird-max-1mb.gif"; sourceTree = "<group>"; };
 		85B55EA5237386760079E50F /* CalcController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcController.m; sourceTree = "<group>"; };
 		85B55EA72373868E0079E50F /* CalcController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcController.h; sourceTree = "<group>"; };
+		85BF63CE23D11DBE00FAC0CC /* 29538221482_ee491e45df_o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 29538221482_ee491e45df_o.png; path = ../../../../Downloads/29538221482_ee491e45df_o.png; sourceTree = "<group>"; };
+		85BF63D223D1214C00FAC0CC /* golf_PNG32-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "golf_PNG32-2.png"; path = "../../../../Downloads/golf_PNG32-2.png"; sourceTree = "<group>"; };
+		85BF63D423D122C300FAC0CC /* golf hoel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "golf hoel.png"; path = "../../../../Downloads/golf hoel.png"; sourceTree = "<group>"; };
 		85C627DF2395C78A00D0D8A2 /* ArraySwap.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArraySwap.storyboard; sourceTree = "<group>"; };
 		85C6B3A22397209B003469DC /* ArraySwap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArraySwap.h; sourceTree = "<group>"; };
 		85C6B3A52397245E003469DC /* ArraySwap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArraySwap.m; sourceTree = "<group>"; };
@@ -78,7 +83,6 @@
 		85F0D11723CFC4510010E4CF /* Golf.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf.storyboard; sourceTree = "<group>"; };
 		85F0D11923CFC8AC0010E4CF /* GolfController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GolfController.h; sourceTree = "<group>"; };
 		85F0D11C23CFC8CB0010E4CF /* GolfController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolfController.m; sourceTree = "<group>"; };
-		85F0D12023CFCD460010E4CF /* Untitled drawing-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled drawing-2.png"; path = "../../../../Downloads/Untitled drawing-2.png"; sourceTree = "<group>"; };
 		85FFCBC523A2F56500C5C098 /* translate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = translate.c; sourceTree = "<group>"; };
 		85FFCBC723A2F59600C5C098 /* Translate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Translate.storyboard; sourceTree = "<group>"; };
 		85FFCBCB23A2FAA400C5C098 /* output-onlinepngtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "output-onlinepngtools.png"; path = "../../../../Downloads/output-onlinepngtools.png"; sourceTree = "<group>"; };
@@ -180,10 +184,12 @@
 				85C7C59D237CAE1100386661 /* square.jpg */,
 				85FFCBCB23A2FAA400C5C098 /* output-onlinepngtools.png */,
 				85CDE3242374D5C500EB461B /* monkeys.jpg */,
-				85F0D12023CFCD460010E4CF /* Untitled drawing-2.png */,
 				85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */,
+				85BF63D423D122C300FAC0CC /* golf hoel.png */,
 				852B40C5237628820044AF2D /* button.png */,
+				85BF63D223D1214C00FAC0CC /* golf_PNG32-2.png */,
 				85CDE3202374D41500EB461B /* tirangler.png */,
+				85BF63CE23D11DBE00FAC0CC /* 29538221482_ee491e45df_o.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -257,17 +263,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C627E02395C78A00D0D8A2 /* ArraySwap.storyboard in Resources */,
-				85F0D12123CFCD470010E4CF /* Untitled drawing-2.png in Resources */,
 				85CDE3252374D5C500EB461B /* monkeys.jpg in Resources */,
 				852B40C6237628820044AF2D /* button.png in Resources */,
 				85F0D11823CFC4510010E4CF /* Golf.storyboard in Resources */,
 				85C7C5A3237CB46D00386661 /* pablo.jpg in Resources */,
+				85BF63D323D1214C00FAC0CC /* golf_PNG32-2.png in Resources */,
 				85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
 				85FFCBCC23A2FAA400C5C098 /* output-onlinepngtools.png in Resources */,
 				85CDE3212374D41500EB461B /* tirangler.png in Resources */,
 				8574476C2370D7D4008222BA /* LaunchScreen.storyboard in Resources */,
 				85FFCBC823A2F59600C5C098 /* Translate.storyboard in Resources */,
 				85B55EA123737D5B0079E50F /* Calc.storyboard in Resources */,
+				85BF63D523D122C300FAC0CC /* golf hoel.png in Resources */,
+				85BF63CF23D11DBE00FAC0CC /* 29538221482_ee491e45df_o.png in Resources */,
 				857447692370D7D4008222BA /* Assets.xcassets in Resources */,
 				857447672370D7D2008222BA /* Main.storyboard in Resources */,
 				85CDE31F2374D14F00EB461B /* Pythag.storyboard in Resources */,

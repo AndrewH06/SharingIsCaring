@@ -11,19 +11,19 @@
 #import "GolfController.h"
 @implementation GolfController
 @synthesize ball, hole;
-- (void)viewDidLoad {
-  [super viewDidLoad];
-  // changes hole image to be circular
-  self.hole.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
-  self.hole.layer.masksToBounds = YES;
-}
-
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-NSLog(@"touches Began");
+  NSLog(@"touches Began");
+  UITouch *touch = [touches anyObject];
+  // turn user interaction off as swipe begins
+  [self.view setUserInteractionEnabled:NO];
+   
+  // store point a touch began
+  self.firstPoint = [touch locationInView:self.view];
+   
 }
 
-/**
-* Automatic action that occus when user releases at end of
+/*
+ Automatic action that occus when user releases at end of swipe
 */
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
   NSLog(@"touches Ended");
@@ -43,8 +43,8 @@ NSLog(@"touches Began");
   // move ball occurs multiple times at this sampling rate, until friction causes ball to stop
   self.gameTimer = [NSTimer scheduledTimerWithTimeInterval:.05 target:self selector:@selector(moveBall) userInfo:nil repeats:YES];
 }
-/**
-* Changes center of ball, which is connected to outlet, this is called recursively by timer
+/*
+ Changes center of ball, which is connected to outlet, this is called recursively by timer
 */
 -(void)moveBall {
   // simulates friction by reducing velocity
@@ -68,5 +68,4 @@ NSLog(@"touches Began");
     [self.view setUserInteractionEnabled:YES];
   }
 }
-
 @end
