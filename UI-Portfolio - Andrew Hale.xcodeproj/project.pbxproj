@@ -10,12 +10,11 @@
 		85004A90239F07A600ED3334 /* reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 85004A8F239F07A600ED3334 /* reverse.c */; };
 		852B40C3237626FD0044AF2D /* PythagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B40C2237626FD0044AF2D /* PythagController.m */; };
 		855FB19423D7BC7600B24534 /* square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19323D7BC7600B24534 /* square.jpg */; };
-		855FB19623D7BC8F00B24534 /* output-onlinepngtools.png in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19523D7BC8F00B24534 /* output-onlinepngtools.png */; };
 		855FB19823D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19723D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif */; };
 		855FB19A23D7BCF600B24534 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19923D7BCF600B24534 /* button.png */; };
-		855FB19C23D7BD0000B24534 /* golf hoel-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19B23D7BD0000B24534 /* golf hoel-4.png */; };
-		855FB19E23D7BD0E00B24534 /* golf_PNG32-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19D23D7BD0E00B24534 /* golf_PNG32-2.png */; };
 		855FB1A123D7BD2100B24534 /* tirangler.png in Resources */ = {isa = PBXBuildFile; fileRef = 855FB1A023D7BD2100B24534 /* tirangler.png */; };
+		855FB1A323D7BFA400B24534 /* golf_PNG32.png in Resources */ = {isa = PBXBuildFile; fileRef = 855FB1A223D7BFA400B24534 /* golf_PNG32.png */; };
+		855FB1A523D7C12600B24534 /* glossy-pink-2-button-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 855FB1A423D7C12600B24534 /* glossy-pink-2-button-md.png */; };
 		8574475E2370D7D2008222BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8574475D2370D7D2008222BA /* AppDelegate.m */; };
 		857447612370D7D2008222BA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 857447602370D7D2008222BA /* SceneDelegate.m */; };
 		857447642370D7D2008222BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857447632370D7D2008222BA /* ViewController.m */; };
@@ -43,12 +42,11 @@
 		852B40C2237626FD0044AF2D /* PythagController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythagController.m; sourceTree = "<group>"; };
 		852B40C4237627090044AF2D /* PythagController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythagController.h; sourceTree = "<group>"; };
 		855FB19323D7BC7600B24534 /* square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = square.jpg; sourceTree = "<group>"; };
-		855FB19523D7BC8F00B24534 /* output-onlinepngtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "output-onlinepngtools.png"; path = "../../../../.Trash/output-onlinepngtools.png"; sourceTree = "<group>"; };
 		855FB19723D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "EasyDopeyLeafbird-max-1mb.gif"; sourceTree = "<group>"; };
 		855FB19923D7BCF600B24534 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
-		855FB19B23D7BD0000B24534 /* golf hoel-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "golf hoel-4.png"; path = "../../../../.Trash/golf hoel-4.png"; sourceTree = "<group>"; };
-		855FB19D23D7BD0E00B24534 /* golf_PNG32-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "golf_PNG32-2.png"; path = "../../../../.Trash/golf_PNG32-2.png"; sourceTree = "<group>"; };
 		855FB1A023D7BD2100B24534 /* tirangler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tirangler.png; sourceTree = "<group>"; };
+		855FB1A223D7BFA400B24534 /* golf_PNG32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golf_PNG32.png; sourceTree = "<group>"; };
+		855FB1A423D7C12600B24534 /* glossy-pink-2-button-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glossy-pink-2-button-md.png"; sourceTree = "<group>"; };
 		857447592370D7D2008222BA /* UI-Portfolio - Andrew Hale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-Portfolio - Andrew Hale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8574475C2370D7D2008222BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8574475D2370D7D2008222BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -175,11 +173,10 @@
 			isa = PBXGroup;
 			children = (
 				855FB19323D7BC7600B24534 /* square.jpg */,
-				855FB19523D7BC8F00B24534 /* output-onlinepngtools.png */,
 				855FB19723D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif */,
-				855FB19B23D7BD0000B24534 /* golf hoel-4.png */,
+				855FB1A423D7C12600B24534 /* glossy-pink-2-button-md.png */,
 				855FB19923D7BCF600B24534 /* button.png */,
-				855FB19D23D7BD0E00B24534 /* golf_PNG32-2.png */,
+				855FB1A223D7BFA400B24534 /* golf_PNG32.png */,
 				855FB1A023D7BD2100B24534 /* tirangler.png */,
 			);
 			path = Images;
@@ -255,16 +252,15 @@
 			files = (
 				85C627E02395C78A00D0D8A2 /* ArraySwap.storyboard in Resources */,
 				855FB19823D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
+				855FB1A323D7BFA400B24534 /* golf_PNG32.png in Resources */,
 				85F0D11823CFC4510010E4CF /* Golf.storyboard in Resources */,
+				855FB1A523D7C12600B24534 /* glossy-pink-2-button-md.png in Resources */,
 				855FB19423D7BC7600B24534 /* square.jpg in Resources */,
 				8574476C2370D7D4008222BA /* LaunchScreen.storyboard in Resources */,
 				85FFCBC823A2F59600C5C098 /* Translate.storyboard in Resources */,
 				85B55EA123737D5B0079E50F /* Calc.storyboard in Resources */,
 				855FB19A23D7BCF600B24534 /* button.png in Resources */,
-				855FB19C23D7BD0000B24534 /* golf hoel-4.png in Resources */,
-				855FB19E23D7BD0E00B24534 /* golf_PNG32-2.png in Resources */,
 				855FB1A123D7BD2100B24534 /* tirangler.png in Resources */,
-				855FB19623D7BC8F00B24534 /* output-onlinepngtools.png in Resources */,
 				857447692370D7D4008222BA /* Assets.xcassets in Resources */,
 				857447672370D7D2008222BA /* Main.storyboard in Resources */,
 				85CDE31F2374D14F00EB461B /* Pythag.storyboard in Resources */,

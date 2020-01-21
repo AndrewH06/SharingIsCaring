@@ -22,6 +22,13 @@
    
 }
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // changes hole image to be circular
+    self.hole.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
+    self.hole.layer.masksToBounds = YES;
+}
+
 /*
  Automatic action that occus when user releases at end of swipe
 */

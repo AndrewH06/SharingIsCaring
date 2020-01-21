@@ -15,12 +15,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golf_PNG32-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="8MZ-mX-GJR">
-                                <rect key="frame" x="164" y="561" width="47" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golf hoel-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="cOq-xb-E7m">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cOq-xb-E7m">
                                 <rect key="frame" x="151" y="98" width="73" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golf_PNG32.png" translatesAutoresizingMaskIntoConstraints="NO" id="8MZ-mX-GJR">
+                                <rect key="frame" x="164" y="541" width="47" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -38,7 +39,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="golf hoel-4.png" width="96" height="96"/>
-        <image name="golf_PNG32-2.png" width="779" height="779"/>
+        <image name="circle.fill" catalog="system" width="64" height="60"/>
+        <image name="golf_PNG32.png" width="786" height="783"/>
     </resources>
 </document>

@@ -29,7 +29,7 @@
                                 <color key="textColor" red="0.88546332923972615" green="0.62156859900684935" blue="0.78663813821232864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools.png" translatesAutoresizingMaskIntoConstraints="NO" id="W6j-Fw-lAT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="glossy-pink-2-button-md.png" translatesAutoresizingMaskIntoConstraints="NO" id="W6j-Fw-lAT">
                                 <rect key="frame" x="35" y="159" width="304" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -226,7 +226,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="output-onlinepngtools.png" width="390" height="320"/>
+        <image name="glossy-pink-2-button-md.png" width="196.18348693847656" height="196.84403991699219"/>
         <image name="square" catalog="system" width="64" height="56"/>
     </resources>
 </document>
