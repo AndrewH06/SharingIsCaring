@@ -20,7 +20,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golf_PNG32.png" translatesAutoresizingMaskIntoConstraints="NO" id="8MZ-mX-GJR">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golf_PNG32-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="8MZ-mX-GJR">
                                 <rect key="frame" x="164" y="541" width="47" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -40,6 +40,6 @@
     </scenes>
     <resources>
         <image name="circle.fill" catalog="system" width="64" height="60"/>
-        <image name="golf_PNG32.png" width="786" height="783"/>
+        <image name="golf_PNG32-2.png" width="779" height="779"/>
     </resources>
 </document>

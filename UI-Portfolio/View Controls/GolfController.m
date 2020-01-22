@@ -27,6 +27,8 @@
     // changes hole image to be circular
     self.hole.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
     self.hole.layer.masksToBounds = YES;
+    self.ball.layer.cornerRadius = .5*self.ball.layer.frame.size.height;
+    self.ball.layer.masksToBounds = YES;
 }
 
 /*
