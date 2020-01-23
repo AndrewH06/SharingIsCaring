@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="1674" y="191"/>
         </scene>
-        <!--Golf-->
+        <!--MainGolf-->
         <scene sceneID="uEl-xA-b8a">
             <objects>
-                <viewControllerPlaceholder storyboardName="Golf" referencedIdentifier="Golf" id="Ibx-N0-aaM" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="MainGolf" referencedIdentifier="MainGolf" id="Ibx-N0-aaM" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="CVk-Kf-KnG"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KaC-gZ-8bJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

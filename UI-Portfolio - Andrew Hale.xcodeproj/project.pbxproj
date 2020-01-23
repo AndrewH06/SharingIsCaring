@@ -32,6 +32,8 @@
 		85CDE3232374D50000EB461B /* square.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3222374D50000EB461B /* square.storyboard */; };
 		85D4F4CF23D90853000FA440 /* golf_PNG32-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D4F4CE23D90853000FA440 /* golf_PNG32-2.png */; };
 		85D4F4D123D909BD000FA440 /* MainGolf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D4F4D023D909BD000FA440 /* MainGolf.storyboard */; };
+		85DD17FF23DA3BEF0007AD1E /* Untitled drawing.png in Resources */ = {isa = PBXBuildFile; fileRef = 85DD17FE23DA3BEF0007AD1E /* Untitled drawing.png */; };
+		85DD180123DA3DCF0007AD1E /* Untitled drawing-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 85DD180023DA3DCF0007AD1E /* Untitled drawing-2.png */; };
 		85F0D11823CFC4510010E4CF /* Golf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F0D11723CFC4510010E4CF /* Golf.storyboard */; };
 		85F0D11D23CFC8CB0010E4CF /* GolfController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F0D11C23CFC8CB0010E4CF /* GolfController.m */; };
 		85FFCBC623A2F56500C5C098 /* translate.c in Sources */ = {isa = PBXBuildFile; fileRef = 85FFCBC523A2F56500C5C098 /* translate.c */; };
@@ -75,6 +77,8 @@
 		85CDE3222374D50000EB461B /* square.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = square.storyboard; sourceTree = "<group>"; };
 		85D4F4CE23D90853000FA440 /* golf_PNG32-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "golf_PNG32-2.png"; sourceTree = "<group>"; };
 		85D4F4D023D909BD000FA440 /* MainGolf.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainGolf.storyboard; sourceTree = "<group>"; };
+		85DD17FE23DA3BEF0007AD1E /* Untitled drawing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled drawing.png"; sourceTree = "<group>"; };
+		85DD180023DA3DCF0007AD1E /* Untitled drawing-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled drawing-2.png"; sourceTree = "<group>"; };
 		85F0D11723CFC4510010E4CF /* Golf.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf.storyboard; sourceTree = "<group>"; };
 		85F0D11923CFC8AC0010E4CF /* GolfController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GolfController.h; sourceTree = "<group>"; };
 		85F0D11C23CFC8CB0010E4CF /* GolfController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GolfController.m; sourceTree = "<group>"; };
@@ -177,7 +181,9 @@
 			children = (
 				855FB19323D7BC7600B24534 /* square.jpg */,
 				855FB19723D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif */,
+				85DD17FE23DA3BEF0007AD1E /* Untitled drawing.png */,
 				855FB1A423D7C12600B24534 /* glossy-pink-2-button-md.png */,
+				85DD180023DA3DCF0007AD1E /* Untitled drawing-2.png */,
 				855FB19923D7BCF600B24534 /* button.png */,
 				85D4F4CE23D90853000FA440 /* golf_PNG32-2.png */,
 				855FB1A023D7BD2100B24534 /* tirangler.png */,
@@ -254,9 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C627E02395C78A00D0D8A2 /* ArraySwap.storyboard in Resources */,
+				85DD180123DA3DCF0007AD1E /* Untitled drawing-2.png in Resources */,
 				855FB19823D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
 				85F0D11823CFC4510010E4CF /* Golf.storyboard in Resources */,
 				855FB1A523D7C12600B24534 /* glossy-pink-2-button-md.png in Resources */,
+				85DD17FF23DA3BEF0007AD1E /* Untitled drawing.png in Resources */,
 				855FB19423D7BC7600B24534 /* square.jpg in Resources */,
 				8574476C2370D7D4008222BA /* LaunchScreen.storyboard in Resources */,
 				85FFCBC823A2F59600C5C098 /* Translate.storyboard in Resources */,
