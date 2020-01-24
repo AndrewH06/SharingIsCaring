@@ -23,6 +23,13 @@
 		8574476F2370D7D4008222BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8574476E2370D7D4008222BA /* main.m */; };
 		857DB06F23A8412200F51267 /* Translate.m in Sources */ = {isa = PBXBuildFile; fileRef = 857DB06E23A8412200F51267 /* Translate.m */; };
 		858CFFEE237B753A00AD9A92 /* calc.c in Sources */ = {isa = PBXBuildFile; fileRef = 858CFFED237B753A00AD9A92 /* calc.c */; };
+		85A337FD23DB89B300913CA9 /* 401b51c3a9098f12b566121c92009877-mars-planet-icon-by-vexels.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A337FC23DB89B300913CA9 /* 401b51c3a9098f12b566121c92009877-mars-planet-icon-by-vexels.png */; };
+		85A337FF23DB8A4500913CA9 /* Golf2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85A337FE23DB8A4500913CA9 /* Golf2.storyboard */; };
+		85A3380323DB8E4800913CA9 /* Wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A3380223DB8E4800913CA9 /* Wood.png */; };
+		85A3380523DB8F0000913CA9 /* Tall Wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A3380423DB8F0000913CA9 /* Tall Wood.png */; };
+		85A3380923DB91AC00913CA9 /* Untitled drawing-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A3380823DB91AC00913CA9 /* Untitled drawing-3.png */; };
+		85A3380B23DB920B00913CA9 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A3380A23DB920B00913CA9 /* top.png */; };
+		85A3380D23DB928900913CA9 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 85A3380C23DB928900913CA9 /* right.png */; };
 		85B55EA123737D5B0079E50F /* Calc.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B55EA023737D5B0079E50F /* Calc.storyboard */; };
 		85B55EA6237386760079E50F /* CalcController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B55EA5237386760079E50F /* CalcController.m */; };
 		85C627E02395C78A00D0D8A2 /* ArraySwap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C627DF2395C78A00D0D8A2 /* ArraySwap.storyboard */; };
@@ -65,6 +72,13 @@
 		857DB07023A8412B00F51267 /* Translate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Translate.h; sourceTree = "<group>"; };
 		858CFFEC237B6E2600AD9A92 /* control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = control.h; sourceTree = "<group>"; };
 		858CFFED237B753A00AD9A92 /* calc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = calc.c; sourceTree = "<group>"; };
+		85A337FC23DB89B300913CA9 /* 401b51c3a9098f12b566121c92009877-mars-planet-icon-by-vexels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "401b51c3a9098f12b566121c92009877-mars-planet-icon-by-vexels.png"; sourceTree = "<group>"; };
+		85A337FE23DB8A4500913CA9 /* Golf2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Golf2.storyboard; sourceTree = "<group>"; };
+		85A3380223DB8E4800913CA9 /* Wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wood.png; sourceTree = "<group>"; };
+		85A3380423DB8F0000913CA9 /* Tall Wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tall Wood.png"; sourceTree = "<group>"; };
+		85A3380823DB91AC00913CA9 /* Untitled drawing-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled drawing-3.png"; sourceTree = "<group>"; };
+		85A3380A23DB920B00913CA9 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		85A3380C23DB928900913CA9 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 		85B55EA023737D5B0079E50F /* Calc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calc.storyboard; sourceTree = "<group>"; };
 		85B55EA5237386760079E50F /* CalcController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcController.m; sourceTree = "<group>"; };
 		85B55EA72373868E0079E50F /* CalcController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalcController.h; sourceTree = "<group>"; };
@@ -172,6 +186,7 @@
 				85FFCBC723A2F59600C5C098 /* Translate.storyboard */,
 				85D4F4D023D909BD000FA440 /* MainGolf.storyboard */,
 				85F0D11723CFC4510010E4CF /* Golf.storyboard */,
+				85A337FE23DB8A4500913CA9 /* Golf2.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,11 +197,17 @@
 				855FB19323D7BC7600B24534 /* square.jpg */,
 				855FB19723D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif */,
 				85DD17FE23DA3BEF0007AD1E /* Untitled drawing.png */,
+				85A3380823DB91AC00913CA9 /* Untitled drawing-3.png */,
+				85A3380223DB8E4800913CA9 /* Wood.png */,
 				855FB1A423D7C12600B24534 /* glossy-pink-2-button-md.png */,
+				85A3380A23DB920B00913CA9 /* top.png */,
 				85DD180023DA3DCF0007AD1E /* Untitled drawing-2.png */,
 				855FB19923D7BCF600B24534 /* button.png */,
+				85A3380C23DB928900913CA9 /* right.png */,
+				85A3380423DB8F0000913CA9 /* Tall Wood.png */,
 				85D4F4CE23D90853000FA440 /* golf_PNG32-2.png */,
 				855FB1A023D7BD2100B24534 /* tirangler.png */,
+				85A337FC23DB89B300913CA9 /* 401b51c3a9098f12b566121c92009877-mars-planet-icon-by-vexels.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -260,9 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C627E02395C78A00D0D8A2 /* ArraySwap.storyboard in Resources */,
+				85A337FF23DB8A4500913CA9 /* Golf2.storyboard in Resources */,
 				85DD180123DA3DCF0007AD1E /* Untitled drawing-2.png in Resources */,
+				85A3380323DB8E4800913CA9 /* Wood.png in Resources */,
 				855FB19823D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
 				85F0D11823CFC4510010E4CF /* Golf.storyboard in Resources */,
+				85A3380923DB91AC00913CA9 /* Untitled drawing-3.png in Resources */,
 				855FB1A523D7C12600B24534 /* glossy-pink-2-button-md.png in Resources */,
 				85DD17FF23DA3BEF0007AD1E /* Untitled drawing.png in Resources */,
 				855FB19423D7BC7600B24534 /* square.jpg in Resources */,
@@ -273,10 +297,14 @@
 				855FB19A23D7BCF600B24534 /* button.png in Resources */,
 				855FB1A123D7BD2100B24534 /* tirangler.png in Resources */,
 				857447692370D7D4008222BA /* Assets.xcassets in Resources */,
+				85A3380B23DB920B00913CA9 /* top.png in Resources */,
 				857447672370D7D2008222BA /* Main.storyboard in Resources */,
 				85CDE31F2374D14F00EB461B /* Pythag.storyboard in Resources */,
+				85A3380D23DB928900913CA9 /* right.png in Resources */,
 				85CDE3232374D50000EB461B /* square.storyboard in Resources */,
 				85D4F4CF23D90853000FA440 /* golf_PNG32-2.png in Resources */,
+				85A3380523DB8F0000913CA9 /* Tall Wood.png in Resources */,
+				85A337FD23DB89B300913CA9 /* 401b51c3a9098f12b566121c92009877-mars-planet-icon-by-vexels.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

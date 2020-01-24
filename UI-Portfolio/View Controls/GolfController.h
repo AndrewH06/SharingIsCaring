@@ -19,11 +19,18 @@
 @interface GolfController : UIViewController
 @property (strong, nonatomic) IBOutlet UIImageView *hole;
 @property (strong, nonatomic) IBOutlet UIImageView *ball; //I changed from an actual image because I wanted a more simplistic design
+@property (strong, nonatomic) IBOutlet UIImageView *wall;
+@property (strong, nonatomic) IBOutlet UIImageView *topBorder;
+@property (strong, nonatomic) IBOutlet UIImageView *bottomBorder;
+@property (strong, nonatomic) IBOutlet UIImageView *rightBorder;
+@property (strong, nonatomic) IBOutlet UIImageView *leftBorder;
 @property (nonatomic) CGPoint firstPoint;
 @property (nonatomic) CGPoint lastPoint;
 @property (nonatomic) float ballVelocityX;
 @property (nonatomic) float ballVelocityY;
+
 @property (strong, nonatomic) NSTimer *gameTimer;
+
 
 @end
 

@@ -24,13 +24,33 @@
                                 <rect key="frame" x="164" y="541" width="47" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled drawing-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="5PN-FM-w5s">
+                                <rect key="frame" x="-69" y="-34" width="144" height="659"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="top.png" translatesAutoresizingMaskIntoConstraints="NO" id="FN7-UD-ktR">
+                                <rect key="frame" x="0.0" y="-51" width="355" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="right.png" translatesAutoresizingMaskIntoConstraints="NO" id="WOY-5h-oZN">
+                                <rect key="frame" x="297" y="13" width="135" height="599"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wood.png" translatesAutoresizingMaskIntoConstraints="NO" id="ifM-dL-gu6">
+                                <rect key="frame" x="32" y="620" width="323" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1539850749464679" green="0.59638200461573598" blue="0.26853239755007774" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Okc-iS-JXM"/>
                     </view>
                     <connections>
                         <outlet property="ball" destination="8MZ-mX-GJR" id="b7q-s4-Kkn"/>
+                        <outlet property="bottomBorder" destination="ifM-dL-gu6" id="0rI-nM-Iza"/>
                         <outlet property="hole" destination="cOq-xb-E7m" id="ceN-b0-HKo"/>
+                        <outlet property="leftBorder" destination="5PN-FM-w5s" id="ihO-De-O35"/>
+                        <outlet property="rightBorder" destination="WOY-5h-oZN" id="QQV-mJ-drA"/>
+                        <outlet property="topBorder" destination="FN7-UD-ktR" id="keB-0x-Oif"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r0L-So-z8l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -39,7 +59,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Untitled drawing-3.png" width="158" height="716"/>
+        <image name="Wood.png" width="960" height="250"/>
         <image name="circle.fill" catalog="system" width="64" height="60"/>
         <image name="golf_PNG32-2.png" width="779" height="779"/>
+        <image name="right.png" width="151" height="716"/>
+        <image name="top.png" width="457" height="156"/>
     </resources>
 </document>

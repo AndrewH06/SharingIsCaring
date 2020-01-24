@@ -70,11 +70,51 @@
     self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
     self.ball.alpha = 0.2;
   }
+  if (CGRectIntersectsRect(self.ball.frame, self.hole.frame)) {
+     [self.gameTimer invalidate];
+     [self.view setUserInteractionEnabled:YES];
+     self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
+     self.ball.alpha = 0.2;
+   }
+    
+   if (CGRectIntersectsRect(self.ball.frame, self.wall.frame))
+   {
+     self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
+     self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+   }
    
+   if (CGRectIntersectsRect(self.ball.frame, self.topBorder.frame))
+   {
+     self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
+     self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+    }
+   if (CGRectIntersectsRect(self.ball.frame, self.rightBorder.frame))
+   {
+     self.ballVelocityX = (-1) * speedDamping * self.ballVelocityX;
+     self.ballVelocityY = (1) * speedDamping * self.ballVelocityY;
+    }
+   if (CGRectIntersectsRect(self.ball.frame, self.leftBorder.frame))
+   {
+     self.ballVelocityX = (-1) * speedDamping * self.ballVelocityX;
+     self.ballVelocityY = (1) * speedDamping * self.ballVelocityY;
+    }
+    if (CGRectIntersectsRect(self.ball.frame, self.bottomBorder.frame))
+    {
+     self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
+     self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+    }
+    
+   if(CGRectIntersectsRect(self.ball.frame, self.wall.frame)) {
+    // simulates friction by reducing velocity
+     self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
+     self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+   }
+    
   // if ball slows/stops turn off game timer and turn user interaction back on
   if(fabs(self.ballVelocityX) < stopSpeed && fabs(self.ballVelocityY) < stopSpeed) {
     [self.gameTimer invalidate];
     [self.view setUserInteractionEnabled:YES];
   }
 }
+
 @end
