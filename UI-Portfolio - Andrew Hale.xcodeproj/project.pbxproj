@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		85004A90239F07A600ED3334 /* reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 85004A8F239F07A600ED3334 /* reverse.c */; };
+		8509ABCC23DF9DA300B565CD /* istockphoto-945479754-612x612.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8509ABCB23DF9DA300B565CD /* istockphoto-945479754-612x612.jpg */; };
+		8509ABD423DFA1EE00B565CD /* Rover New.png in Resources */ = {isa = PBXBuildFile; fileRef = 8509ABD323DFA1EE00B565CD /* Rover New.png */; };
 		852B40C3237626FD0044AF2D /* PythagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B40C2237626FD0044AF2D /* PythagController.m */; };
 		855FB19423D7BC7600B24534 /* square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19323D7BC7600B24534 /* square.jpg */; };
 		855FB19823D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19723D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif */; };
@@ -49,6 +51,8 @@
 
 /* Begin PBXFileReference section */
 		85004A8F239F07A600ED3334 /* reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
+		8509ABCB23DF9DA300B565CD /* istockphoto-945479754-612x612.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "istockphoto-945479754-612x612.jpg"; sourceTree = "<group>"; };
+		8509ABD323DFA1EE00B565CD /* Rover New.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rover New.png"; sourceTree = "<group>"; };
 		852B40C2237626FD0044AF2D /* PythagController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythagController.m; sourceTree = "<group>"; };
 		852B40C4237627090044AF2D /* PythagController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythagController.h; sourceTree = "<group>"; };
 		855FB19323D7BC7600B24534 /* square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = square.jpg; sourceTree = "<group>"; };
@@ -201,8 +205,10 @@
 				85A3380223DB8E4800913CA9 /* Wood.png */,
 				855FB1A423D7C12600B24534 /* glossy-pink-2-button-md.png */,
 				85A3380A23DB920B00913CA9 /* top.png */,
+				8509ABD323DFA1EE00B565CD /* Rover New.png */,
 				85DD180023DA3DCF0007AD1E /* Untitled drawing-2.png */,
 				855FB19923D7BCF600B24534 /* button.png */,
+				8509ABCB23DF9DA300B565CD /* istockphoto-945479754-612x612.jpg */,
 				85A3380C23DB928900913CA9 /* right.png */,
 				85A3380423DB8F0000913CA9 /* Tall Wood.png */,
 				85D4F4CE23D90853000FA440 /* golf_PNG32-2.png */,
@@ -281,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C627E02395C78A00D0D8A2 /* ArraySwap.storyboard in Resources */,
+				8509ABD423DFA1EE00B565CD /* Rover New.png in Resources */,
 				85A337FF23DB8A4500913CA9 /* Golf2.storyboard in Resources */,
 				85DD180123DA3DCF0007AD1E /* Untitled drawing-2.png in Resources */,
 				85A3380323DB8E4800913CA9 /* Wood.png in Resources */,
@@ -298,6 +305,7 @@
 				855FB1A123D7BD2100B24534 /* tirangler.png in Resources */,
 				857447692370D7D4008222BA /* Assets.xcassets in Resources */,
 				85A3380B23DB920B00913CA9 /* top.png in Resources */,
+				8509ABCC23DF9DA300B565CD /* istockphoto-945479754-612x612.jpg in Resources */,
 				857447672370D7D2008222BA /* Main.storyboard in Resources */,
 				85CDE31F2374D14F00EB461B /* Pythag.storyboard in Resources */,
 				85A3380D23DB928900913CA9 /* right.png in Resources */,

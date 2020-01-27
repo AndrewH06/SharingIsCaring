@@ -15,19 +15,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aJe-KU-bOs">
-                                <rect key="frame" x="32" y="42.5" width="53" height="53"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="istockphoto-945479754-612x612.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mwp-tm-aVE">
+                                <rect key="frame" x="-22" y="-156" width="419" height="1334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golf_PNG32-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="GrM-x2-Ry9">
                                 <rect key="frame" x="169" y="545" width="37" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rover New.png" translatesAutoresizingMaskIntoConstraints="NO" id="w5P-aA-hW0">
+                                <rect key="frame" x="236" y="276" width="123" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aJe-KU-bOs">
+                                <rect key="frame" x="33" y="74.5" width="53" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.75749524111675126" green="0.39585949690314293" blue="0.26943410747430274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="e1D-9F-BFW"/>
                     </view>
+                    <connections>
+                        <outlet property="ball" destination="GrM-x2-Ry9" id="2kZ-aB-mEA"/>
+                        <outlet property="hole" destination="aJe-KU-bOs" id="qxL-mH-ylk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kl5-vY-6nB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -35,7 +47,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Rover New.png" width="720" height="567"/>
         <image name="circle.fill" catalog="system" width="64" height="60"/>
         <image name="golf_PNG32-2.png" width="779" height="779"/>
+        <image name="istockphoto-945479754-612x612.jpg" width="45.119998931884766" height="146.8800048828125"/>
     </resources>
 </document>
