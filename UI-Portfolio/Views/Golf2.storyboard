@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,44 +12,95 @@
             <objects>
                 <viewController storyboardIdentifier="Golf2" id="TK6-le-CvL" customClass="GolfController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ehY-vR-KFC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="istockphoto-945479754-612x612.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mwp-tm-aVE">
-                                <rect key="frame" x="-22" y="-156" width="419" height="1334"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="2I3-jH-gDN">
+                                <rect key="frame" x="-26" y="532" width="466" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.59335342639593902" green="0.28270391155451602" blue="0.13805009364246743" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="uqr-Q3-I4d">
+                                <rect key="frame" x="-26" y="615" width="466" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.59335342639999999" green="0.28270391160000002" blue="0.13805009360000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golf_PNG32-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="GrM-x2-Ry9">
-                                <rect key="frame" x="169" y="545" width="37" height="37"/>
+                                <rect key="frame" x="335" y="802" width="37" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rover New.png" translatesAutoresizingMaskIntoConstraints="NO" id="w5P-aA-hW0">
-                                <rect key="frame" x="236" y="276" width="123" height="96"/>
+                                <rect key="frame" x="283" y="532" width="123" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aJe-KU-bOs">
-                                <rect key="frame" x="33" y="74.5" width="53" height="53"/>
+                                <rect key="frame" x="67" y="148.5" width="53" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nethaaa.png" translatesAutoresizingMaskIntoConstraints="NO" id="YQ5-QT-Z3A">
+                                <rect key="frame" x="33" y="704" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kindpng_1082752.png" translatesAutoresizingMaskIntoConstraints="NO" id="LP3-oB-J2e">
+                                <rect key="frame" x="18" y="802" width="68" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nethaaa.png" translatesAutoresizingMaskIntoConstraints="NO" id="gFC-P7-G5O">
+                                <rect key="frame" x="316" y="351" width="74" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cij-Pm-oFS">
+                                <rect key="frame" x="139" y="424" width="275" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qIZ-G0-EOk">
+                                <rect key="frame" x="-10" y="889" width="424" height="9"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EnD-IL-wVw">
+                                <rect key="frame" x="0.0" y="0.0" width="9" height="889"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PmV-ms-EqS">
+                                <rect key="frame" x="0.0" y="79" width="424" height="9"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SF8-q3-AdY">
+                                <rect key="frame" x="405" y="4" width="9" height="889"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fwL-JJ-DMe">
+                                <rect key="frame" x="161" y="28" width="35" height="423"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="0.58660637842465757" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.75749524111675126" green="0.39585949690314293" blue="0.26943410747430274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.75749524111675126" green="0.36090946495139758" blue="0.17623946254944331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="e1D-9F-BFW"/>
                     </view>
                     <connections>
                         <outlet property="ball" destination="GrM-x2-Ry9" id="2kZ-aB-mEA"/>
+                        <outlet property="bottomBorder" destination="qIZ-G0-EOk" id="NfH-rE-bM0"/>
                         <outlet property="hole" destination="aJe-KU-bOs" id="qxL-mH-ylk"/>
+                        <outlet property="leftBorder" destination="EnD-IL-wVw" id="m7p-tz-xK3"/>
+                        <outlet property="other2Border" destination="fwL-JJ-DMe" id="tXE-ma-k9T"/>
+                        <outlet property="otherBorder" destination="cij-Pm-oFS" id="5i1-Pm-N8q"/>
+                        <outlet property="rightBorder" destination="SF8-q3-AdY" id="NoX-2v-7yu"/>
+                        <outlet property="topBorder" destination="PmV-ms-EqS" id="Rof-mQ-6k7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kl5-vY-6nB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125.59999999999999" y="107.49625187406298"/>
+            <point key="canvasLocation" x="124.6376811594203" y="107.14285714285714"/>
         </scene>
     </scenes>
     <resources>
         <image name="Rover New.png" width="720" height="567"/>
         <image name="circle.fill" catalog="system" width="64" height="60"/>
         <image name="golf_PNG32-2.png" width="779" height="779"/>
-        <image name="istockphoto-945479754-612x612.jpg" width="45.119998931884766" height="146.8800048828125"/>
+        <image name="kindpng_1082752.png" width="667" height="1280"/>
+        <image name="nethaaa.png" width="192" height="192"/>
+        <image name="rectangle.fill" catalog="system" width="64" height="46"/>
     </resources>
 </document>

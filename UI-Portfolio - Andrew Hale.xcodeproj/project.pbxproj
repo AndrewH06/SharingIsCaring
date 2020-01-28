@@ -11,6 +11,10 @@
 		8509ABCC23DF9DA300B565CD /* istockphoto-945479754-612x612.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8509ABCB23DF9DA300B565CD /* istockphoto-945479754-612x612.jpg */; };
 		8509ABD423DFA1EE00B565CD /* Rover New.png in Resources */ = {isa = PBXBuildFile; fileRef = 8509ABD323DFA1EE00B565CD /* Rover New.png */; };
 		852B40C3237626FD0044AF2D /* PythagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B40C2237626FD0044AF2D /* PythagController.m */; };
+		852F0BA323E0EF09004E6575 /* nethaaa.png in Resources */ = {isa = PBXBuildFile; fileRef = 852F0BA223E0EF09004E6575 /* nethaaa.png */; };
+		852F0BA523E0EFE3004E6575 /* kindpng_1082752.png in Resources */ = {isa = PBXBuildFile; fileRef = 852F0BA423E0EFE3004E6575 /* kindpng_1082752.png */; };
+		852F0BA923E0F1EC004E6575 /* wood top.png in Resources */ = {isa = PBXBuildFile; fileRef = 852F0BA823E0F1EC004E6575 /* wood top.png */; };
+		852F0BAB23E0F5AF004E6575 /* fence.png in Resources */ = {isa = PBXBuildFile; fileRef = 852F0BAA23E0F5AF004E6575 /* fence.png */; };
 		855FB19423D7BC7600B24534 /* square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19323D7BC7600B24534 /* square.jpg */; };
 		855FB19823D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19723D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif */; };
 		855FB19A23D7BCF600B24534 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 855FB19923D7BCF600B24534 /* button.png */; };
@@ -55,6 +59,10 @@
 		8509ABD323DFA1EE00B565CD /* Rover New.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rover New.png"; sourceTree = "<group>"; };
 		852B40C2237626FD0044AF2D /* PythagController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythagController.m; sourceTree = "<group>"; };
 		852B40C4237627090044AF2D /* PythagController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythagController.h; sourceTree = "<group>"; };
+		852F0BA223E0EF09004E6575 /* nethaaa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nethaaa.png; sourceTree = "<group>"; };
+		852F0BA423E0EFE3004E6575 /* kindpng_1082752.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kindpng_1082752.png; sourceTree = "<group>"; };
+		852F0BA823E0F1EC004E6575 /* wood top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood top.png"; sourceTree = "<group>"; };
+		852F0BAA23E0F5AF004E6575 /* fence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fence.png; sourceTree = "<group>"; };
 		855FB19323D7BC7600B24534 /* square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = square.jpg; sourceTree = "<group>"; };
 		855FB19723D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "EasyDopeyLeafbird-max-1mb.gif"; sourceTree = "<group>"; };
 		855FB19923D7BCF600B24534 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
@@ -202,11 +210,15 @@
 				855FB19723D7BCBA00B24534 /* EasyDopeyLeafbird-max-1mb.gif */,
 				85DD17FE23DA3BEF0007AD1E /* Untitled drawing.png */,
 				85A3380823DB91AC00913CA9 /* Untitled drawing-3.png */,
+				852F0BA823E0F1EC004E6575 /* wood top.png */,
 				85A3380223DB8E4800913CA9 /* Wood.png */,
 				855FB1A423D7C12600B24534 /* glossy-pink-2-button-md.png */,
+				852F0BA223E0EF09004E6575 /* nethaaa.png */,
+				852F0BA423E0EFE3004E6575 /* kindpng_1082752.png */,
 				85A3380A23DB920B00913CA9 /* top.png */,
 				8509ABD323DFA1EE00B565CD /* Rover New.png */,
 				85DD180023DA3DCF0007AD1E /* Untitled drawing-2.png */,
+				852F0BAA23E0F5AF004E6575 /* fence.png */,
 				855FB19923D7BCF600B24534 /* button.png */,
 				8509ABCB23DF9DA300B565CD /* istockphoto-945479754-612x612.jpg */,
 				85A3380C23DB928900913CA9 /* right.png */,
@@ -295,21 +307,25 @@
 				85F0D11823CFC4510010E4CF /* Golf.storyboard in Resources */,
 				85A3380923DB91AC00913CA9 /* Untitled drawing-3.png in Resources */,
 				855FB1A523D7C12600B24534 /* glossy-pink-2-button-md.png in Resources */,
+				852F0BA923E0F1EC004E6575 /* wood top.png in Resources */,
 				85DD17FF23DA3BEF0007AD1E /* Untitled drawing.png in Resources */,
 				855FB19423D7BC7600B24534 /* square.jpg in Resources */,
 				8574476C2370D7D4008222BA /* LaunchScreen.storyboard in Resources */,
 				85FFCBC823A2F59600C5C098 /* Translate.storyboard in Resources */,
+				852F0BA523E0EFE3004E6575 /* kindpng_1082752.png in Resources */,
 				85D4F4D123D909BD000FA440 /* MainGolf.storyboard in Resources */,
 				85B55EA123737D5B0079E50F /* Calc.storyboard in Resources */,
 				855FB19A23D7BCF600B24534 /* button.png in Resources */,
 				855FB1A123D7BD2100B24534 /* tirangler.png in Resources */,
 				857447692370D7D4008222BA /* Assets.xcassets in Resources */,
+				852F0BAB23E0F5AF004E6575 /* fence.png in Resources */,
 				85A3380B23DB920B00913CA9 /* top.png in Resources */,
 				8509ABCC23DF9DA300B565CD /* istockphoto-945479754-612x612.jpg in Resources */,
 				857447672370D7D2008222BA /* Main.storyboard in Resources */,
 				85CDE31F2374D14F00EB461B /* Pythag.storyboard in Resources */,
 				85A3380D23DB928900913CA9 /* right.png in Resources */,
 				85CDE3232374D50000EB461B /* square.storyboard in Resources */,
+				852F0BA323E0EF09004E6575 /* nethaaa.png in Resources */,
 				85D4F4CF23D90853000FA440 /* golf_PNG32-2.png in Resources */,
 				85A3380523DB8F0000913CA9 /* Tall Wood.png in Resources */,
 				85A337FD23DB89B300913CA9 /* 401b51c3a9098f12b566121c92009877-mars-planet-icon-by-vexels.png in Resources */,

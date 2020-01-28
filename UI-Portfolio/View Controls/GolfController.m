@@ -104,6 +104,18 @@
      self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
     }
     
+    if (CGRectIntersectsRect(self.ball.frame, self.otherBorder.frame))
+      {
+       self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
+       self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+      }
+    
+    if (CGRectIntersectsRect(self.ball.frame, self.other2Border.frame))
+         {
+          self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
+          self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+         }
+    
    if(CGRectIntersectsRect(self.ball.frame, self.wall.frame)) {
     // simulates friction by reducing velocity
      self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
