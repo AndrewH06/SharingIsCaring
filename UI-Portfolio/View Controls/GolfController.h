@@ -26,6 +26,10 @@
 @property (strong, nonatomic) IBOutlet UIImageView *leftBorder;
 @property (strong, nonatomic) IBOutlet UIImageView *otherBorder;
 @property (strong, nonatomic) IBOutlet UIImageView *other2Border;
+@property (strong, nonatomic) IBOutlet UIImageView *portal;
+@property (strong, nonatomic) IBOutlet UIImageView *portal2;
+@property (strong, nonatomic) IBOutlet UIImageView *portal3;
+@property (strong, nonatomic) IBOutlet UIImageView *portal4;
 @property (nonatomic) CGPoint firstPoint;
 @property (nonatomic) CGPoint lastPoint;
 @property (nonatomic) float ballVelocityX;

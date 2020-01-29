@@ -112,8 +112,8 @@
     
     if (CGRectIntersectsRect(self.ball.frame, self.other2Border.frame))
          {
-          self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
-          self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
+             self.ballVelocityX = (-1) * speedDamping * self.ballVelocityX;
+             self.ballVelocityY = (1) * speedDamping * self.ballVelocityY;
          }
     
    if(CGRectIntersectsRect(self.ball.frame, self.wall.frame)) {
@@ -121,6 +121,14 @@
      self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
      self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
    }
+    
+    if (CGRectIntersectsRect(self.ball.frame, self.portal.frame)) {
+      self.ball.center = CGPointMake(self.portal2.center.x, self.portal2.center.y);
+    }
+    
+    if (CGRectIntersectsRect(self.ball.frame, self.portal3.frame)) {
+      self.ball.center = CGPointMake(self.portal4.center.x, self.portal4.center.y);
+    }
     
   // if ball slows/stops turn off game timer and turn user interaction back on
   if(fabs(self.ballVelocityX) < stopSpeed && fabs(self.ballVelocityY) < stopSpeed) {
