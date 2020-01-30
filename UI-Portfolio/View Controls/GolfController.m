@@ -10,7 +10,7 @@
 
 #import "GolfController.h"
 @implementation GolfController
-@synthesize ball, hole;
+@synthesize ball, hole, secretbutton, won, nextLevel;
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
   NSLog(@"touches Began");
   UITouch *touch = [touches anyObject];
@@ -69,13 +69,8 @@
     [self.view setUserInteractionEnabled:YES];
     self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
     self.ball.alpha = 0.2;
+    self.nextlevel.center = CGPointMake(self.secretbutton.center.x, self.secretbutton.center.y);
   }
-  if (CGRectIntersectsRect(self.ball.frame, self.hole.frame)) {
-     [self.gameTimer invalidate];
-     [self.view setUserInteractionEnabled:YES];
-     self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
-     self.ball.alpha = 0.2;
-   }
     
    if (CGRectIntersectsRect(self.ball.frame, self.wall.frame))
    {
@@ -83,35 +78,41 @@
      self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
    }
    
-   if (CGRectIntersectsRect(self.ball.frame, self.topBorder.frame))
+   if (CGRectIntersectsRect(self.ball.frame, self.topBorder.frame) && !CGRectEqualToRect(self.lastRect, self.topBorder.frame)) //make ball not stick to wall
    {
+       self.lastRect = self.topBorder.frame;
      self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
      self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
     }
-   if (CGRectIntersectsRect(self.ball.frame, self.rightBorder.frame))
+   if (CGRectIntersectsRect(self.ball.frame, self.rightBorder.frame) && !CGRectEqualToRect(self.lastRect, self.rightBorder.frame))
    {
+       self.lastRect = self.rightBorder.frame;
      self.ballVelocityX = (-1) * speedDamping * self.ballVelocityX;
      self.ballVelocityY = (1) * speedDamping * self.ballVelocityY;
     }
-   if (CGRectIntersectsRect(self.ball.frame, self.leftBorder.frame))
+   if (CGRectIntersectsRect(self.ball.frame, self.leftBorder.frame) && !CGRectEqualToRect(self.lastRect, self.leftBorder.frame))
    {
+       self.lastRect = self.leftBorder.frame;
      self.ballVelocityX = (-1) * speedDamping * self.ballVelocityX;
      self.ballVelocityY = (1) * speedDamping * self.ballVelocityY;
     }
-    if (CGRectIntersectsRect(self.ball.frame, self.bottomBorder.frame))
+    if (CGRectIntersectsRect(self.ball.frame, self.bottomBorder.frame) && !CGRectEqualToRect(self.lastRect, self.bottomBorder.frame))
     {
+        self.lastRect = self.bottomBorder.frame;
      self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
      self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
     }
     
-    if (CGRectIntersectsRect(self.ball.frame, self.otherBorder.frame))
+    if (CGRectIntersectsRect(self.ball.frame, self.otherBorder.frame) && !CGRectEqualToRect(self.lastRect, self.otherBorder.frame))
       {
+          self.lastRect = self.otherBorder.frame;
        self.ballVelocityX = (1) * speedDamping * self.ballVelocityX;
        self.ballVelocityY = (-1) * speedDamping * self.ballVelocityY;
       }
     
-    if (CGRectIntersectsRect(self.ball.frame, self.other2Border.frame))
+    if (CGRectIntersectsRect(self.ball.frame, self.other2Border.frame) && !CGRectEqualToRect(self.lastRect, self.other2Border.frame))
          {
+             self.lastRect = self.other2Border.frame;
              self.ballVelocityX = (-1) * speedDamping * self.ballVelocityX;
              self.ballVelocityY = (1) * speedDamping * self.ballVelocityY;
          }
@@ -128,6 +129,21 @@
     
     if (CGRectIntersectsRect(self.ball.frame, self.portal3.frame)) {
       self.ball.center = CGPointMake(self.portal4.center.x, self.portal4.center.y);
+    }
+    
+    if (CGRectIntersectsRect(self.ball.frame, self.button.frame)) {
+        self.hole.center = CGPointMake(self.makehole.center.x, self.makehole.center.y);
+    }
+    
+    if
+    (CGRectIntersectsRect(self.ball.frame, self.hole.frame)) {
+     [self.gameTimer invalidate];
+     [self.view
+      setUserInteractionEnabled:YES];
+     self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
+     self.ball.alpha = 0.2;
+     won.text = [NSString stringWithFormat:@"You won!"];
+     nextLevel.hidden = FALSE;
     }
     
   // if ball slows/stops turn off game timer and turn user interaction back on

@@ -44,6 +44,18 @@
                                 <rect key="frame" x="-95" y="72" width="161" height="738"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZT-Th-QR9">
+                                <rect key="frame" x="151" y="301" width="126" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Next Level">
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xyH-xg-sMc" kind="show" id="lXN-8b-CF9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1539850749464679" green="0.59638200461573598" blue="0.26853239755007774" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Okc-iS-JXM"/>
@@ -53,6 +65,7 @@
                         <outlet property="bottomBorder" destination="ifM-dL-gu6" id="0rI-nM-Iza"/>
                         <outlet property="hole" destination="cOq-xb-E7m" id="ceN-b0-HKo"/>
                         <outlet property="leftBorder" destination="5PN-FM-w5s" id="ihO-De-O35"/>
+                        <outlet property="nextLevel" destination="XZT-Th-QR9" id="Mau-gP-mtY"/>
                         <outlet property="otherBorder" destination="4F6-Sy-2oh" id="zsF-wU-TFL"/>
                         <outlet property="rightBorder" destination="WOY-5h-oZN" id="Msd-lt-Rrt"/>
                         <outlet property="topBorder" destination="FN7-UD-ktR" id="keB-0x-Oif"/>
@@ -61,6 +74,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r0L-So-z8l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="90.401785714285708"/>
+        </scene>
+        <!--Golf2-->
+        <scene sceneID="U2J-Dt-x4S">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="golf2" storyboardName="Golf2" referencedIdentifier="Golf2" id="xyH-xg-sMc" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="c4R-sw-kS2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tUy-Ql-8p3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="676" y="44"/>
         </scene>
     </scenes>
     <resources>

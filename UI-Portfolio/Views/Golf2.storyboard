@@ -37,8 +37,12 @@
                                 <rect key="frame" x="27" y="647" width="97" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pzc-lW-dd5">
+                                <rect key="frame" x="286" y="255" width="62" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aJe-KU-bOs">
-                                <rect key="frame" x="44" y="145.5" width="53" height="53"/>
+                                <rect key="frame" x="27" y="17.5" width="53" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -98,10 +102,17 @@
                                 <rect key="frame" x="326" y="657" width="146" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="button2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pzc-lW-dd5">
-                                <rect key="frame" x="286" y="255" width="62" height="62"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C2R-HR-ndG">
+                                <rect key="frame" x="60" y="152" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip! Hit the button!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJu-8z-9hb">
+                                <rect key="frame" x="252" y="742" width="145" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.75749524111675126" green="0.36090946495139758" blue="0.17623946254944331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="e1D-9F-BFW"/>
@@ -109,8 +120,10 @@
                     <connections>
                         <outlet property="ball" destination="GrM-x2-Ry9" id="2kZ-aB-mEA"/>
                         <outlet property="bottomBorder" destination="qIZ-G0-EOk" id="NfH-rE-bM0"/>
+                        <outlet property="button" destination="Pzc-lW-dd5" id="Fia-yg-dVw"/>
                         <outlet property="hole" destination="aJe-KU-bOs" id="qxL-mH-ylk"/>
                         <outlet property="leftBorder" destination="EnD-IL-wVw" id="m7p-tz-xK3"/>
+                        <outlet property="makehole" destination="C2R-HR-ndG" id="DUe-un-FOW"/>
                         <outlet property="other2Border" destination="mCa-rY-AZa" id="uid-fw-z9q"/>
                         <outlet property="otherBorder" destination="h4h-Qi-1fJ" id="2md-H4-SN6"/>
                         <outlet property="portal" destination="8eL-vV-Iti" id="kT3-F0-ZgY"/>

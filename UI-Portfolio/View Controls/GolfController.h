@@ -30,10 +30,19 @@
 @property (strong, nonatomic) IBOutlet UIImageView *portal2;
 @property (strong, nonatomic) IBOutlet UIImageView *portal3;
 @property (strong, nonatomic) IBOutlet UIImageView *portal4;
+@property (strong, nonatomic) IBOutlet UIImageView *button;
+@property (strong, nonatomic) IBOutlet UIImageView *makehole;
+@property (strong, nonatomic) IBOutlet UIImageView *nextlevel;
+@property (strong, nonatomic) IBOutlet UIImageView *secretbutton;
+
+@property (strong, nonatomic) IBOutlet UITextField *won;
+@property (strong, nonatomic) IBOutlet UIButton *nextLevel;
+
 @property (nonatomic) CGPoint firstPoint;
 @property (nonatomic) CGPoint lastPoint;
 @property (nonatomic) float ballVelocityX;
 @property (nonatomic) float ballVelocityY;
+@property (nonatomic) CGRect lastRect;
 
 @property (strong, nonatomic) NSTimer *gameTimer;
 
