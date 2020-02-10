@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		85004A90239F07A600ED3334 /* reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 85004A8F239F07A600ED3334 /* reverse.c */; };
 		8501137623EE1E100051AB6C /* arch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8501137523EE1E100051AB6C /* arch.png */; };
+		8501137823EE208B0051AB6C /* button-icon-png-21057.png in Resources */ = {isa = PBXBuildFile; fileRef = 8501137723EE208B0051AB6C /* button-icon-png-21057.png */; };
 		8509ABD423DFA1EE00B565CD /* Rover New.png in Resources */ = {isa = PBXBuildFile; fileRef = 8509ABD323DFA1EE00B565CD /* Rover New.png */; };
+		850F698C23F208F1007FC68B /* playing-card-back-png-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 850F698B23F208F1007FC68B /* playing-card-back-png-1.png */; };
+		850F699123F20FB3007FC68B /* CardsController.c in Sources */ = {isa = PBXBuildFile; fileRef = 850F699023F20FB3007FC68B /* CardsController.c */; };
 		852B40C3237626FD0044AF2D /* PythagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852B40C2237626FD0044AF2D /* PythagController.m */; };
 		852F0BA923E0F1EC004E6575 /* wood top.png in Resources */ = {isa = PBXBuildFile; fileRef = 852F0BA823E0F1EC004E6575 /* wood top.png */; };
 		853FC4AB23EB8338009A2E1C /* Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 853FC4AA23EB8338009A2E1C /* Bottom.png */; };
@@ -114,7 +117,11 @@
 /* Begin PBXFileReference section */
 		85004A8F239F07A600ED3334 /* reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
 		8501137523EE1E100051AB6C /* arch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arch.png; sourceTree = "<group>"; };
+		8501137723EE208B0051AB6C /* button-icon-png-21057.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-icon-png-21057.png"; sourceTree = "<group>"; };
 		8509ABD323DFA1EE00B565CD /* Rover New.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rover New.png"; sourceTree = "<group>"; };
+		850F698B23F208F1007FC68B /* playing-card-back-png-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playing-card-back-png-1.png"; sourceTree = "<group>"; };
+		850F698F23F20FB3007FC68B /* CardsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardsController.h; sourceTree = "<group>"; };
+		850F699023F20FB3007FC68B /* CardsController.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CardsController.c; sourceTree = "<group>"; };
 		852B40C2237626FD0044AF2D /* PythagController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythagController.m; sourceTree = "<group>"; };
 		852B40C4237627090044AF2D /* PythagController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythagController.h; sourceTree = "<group>"; };
 		852F0BA823E0F1EC004E6575 /* wood top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood top.png"; sourceTree = "<group>"; };
@@ -245,6 +252,8 @@
 				853FC4AC23EB83A4009A2E1C /* Header.png */,
 				853FC4AA23EB8338009A2E1C /* Bottom.png */,
 				8501137523EE1E100051AB6C /* arch.png */,
+				8501137723EE208B0051AB6C /* button-icon-png-21057.png */,
+				850F698B23F208F1007FC68B /* playing-card-back-png-1.png */,
 				85DCD2CF23ECD11D008697C4 /* C1.png */,
 				85DCD2C023ECD11A008697C4 /* C2.png */,
 				85DCD2C323ECD11B008697C4 /* C3.png */,
@@ -320,6 +329,7 @@
 		8574475B2370D7D2008222BA /* UI-Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				85B55EA2237382B10079E50F /* Images */,
 				8574476E2370D7D4008222BA /* main.m */,
 				85DC252923A0624D002EBC06 /* Control */,
 				857447762370D83B008222BA /* View Controls */,
@@ -327,7 +337,6 @@
 				857447752370D7F9008222BA /* Models */,
 				857447682370D7D4008222BA /* Assets.xcassets */,
 				8574476D2370D7D4008222BA /* Info.plist */,
-				85B55EA2237382B10079E50F /* Images */,
 			);
 			path = "UI-Portfolio";
 			sourceTree = "<group>";
@@ -360,6 +369,8 @@
 				857DB07023A8412B00F51267 /* Translate.h */,
 				85F0D11923CFC8AC0010E4CF /* GolfController.h */,
 				85F0D11C23CFC8CB0010E4CF /* GolfController.m */,
+				850F698F23F20FB3007FC68B /* CardsController.h */,
+				850F699023F20FB3007FC68B /* CardsController.c */,
 			);
 			path = "View Controls";
 			sourceTree = "<group>";
@@ -507,7 +518,9 @@
 				85DCD2DA23ECD120008697C4 /* H3.png in Resources */,
 				85DCD2F323ECD120008697C4 /* D12.png in Resources */,
 				85DCD2E923ECD120008697C4 /* D10.png in Resources */,
+				850F698C23F208F1007FC68B /* playing-card-back-png-1.png in Resources */,
 				85DCD2E823ECD120008697C4 /* S9.png in Resources */,
+				8501137823EE208B0051AB6C /* button-icon-png-21057.png in Resources */,
 				85DCD2EE23ECD120008697C4 /* S1.png in Resources */,
 				852F0BA923E0F1EC004E6575 /* wood top.png in Resources */,
 				85DD17FF23DA3BEF0007AD1E /* Untitled drawing.png in Resources */,
@@ -590,6 +603,7 @@
 				8574476F2370D7D4008222BA /* main.m in Sources */,
 				857447612370D7D2008222BA /* SceneDelegate.m in Sources */,
 				85B55EA6237386760079E50F /* CalcController.m in Sources */,
+				850F699123F20FB3007FC68B /* CardsController.c in Sources */,
 				85004A90239F07A600ED3334 /* reverse.c in Sources */,
 				858CFFEE237B753A00AD9A92 /* calc.c in Sources */,
 			);
