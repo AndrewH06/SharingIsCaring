@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -41,11 +41,6 @@
                                 <rect key="frame" x="286" y="255" width="62" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aJe-KU-bOs">
-                                <rect key="frame" x="27" y="17.5" width="53" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Space-Hole-PNG.png" translatesAutoresizingMaskIntoConstraints="NO" id="YQ5-QT-Z3A">
                                 <rect key="frame" x="15" y="752" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -78,8 +73,18 @@
                                 <rect key="frame" x="56" y="792" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aJe-KU-bOs">
+                                <rect key="frame" x="27" y="34" width="15" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hfQ-m6-qnI" userLabel="Circle">
+                                <rect key="frame" x="50" y="15" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golf_PNG32-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="GrM-x2-Ry9">
-                                <rect key="frame" x="326" y="815" width="37" height="37"/>
+                                <rect key="frame" x="326" y="814" width="37" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageedit_1_5468799433.png" translatesAutoresizingMaskIntoConstraints="NO" id="mCa-rY-AZa">
@@ -113,6 +118,18 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K5Y-4L-Dgq">
+                                <rect key="frame" x="139" y="417" width="126" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Next Level">
+                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JqP-DR-zPD" kind="show" id="Tby-ic-XDl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.75749524111675126" green="0.36090946495139758" blue="0.17623946254944331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="e1D-9F-BFW"/>
@@ -121,9 +138,11 @@
                         <outlet property="ball" destination="GrM-x2-Ry9" id="2kZ-aB-mEA"/>
                         <outlet property="bottomBorder" destination="qIZ-G0-EOk" id="NfH-rE-bM0"/>
                         <outlet property="button" destination="Pzc-lW-dd5" id="Fia-yg-dVw"/>
+                        <outlet property="circle" destination="hfQ-m6-qnI" id="70f-tP-xd7"/>
                         <outlet property="hole" destination="aJe-KU-bOs" id="qxL-mH-ylk"/>
                         <outlet property="leftBorder" destination="EnD-IL-wVw" id="m7p-tz-xK3"/>
                         <outlet property="makehole" destination="C2R-HR-ndG" id="DUe-un-FOW"/>
+                        <outlet property="nextLevel" destination="K5Y-4L-Dgq" id="9ZB-PQ-d6Q"/>
                         <outlet property="other2Border" destination="mCa-rY-AZa" id="uid-fw-z9q"/>
                         <outlet property="otherBorder" destination="h4h-Qi-1fJ" id="2md-H4-SN6"/>
                         <outlet property="portal" destination="8eL-vV-Iti" id="kT3-F0-ZgY"/>
@@ -137,6 +156,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kl5-vY-6nB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="124.6376811594203" y="107.14285714285714"/>
+        </scene>
+        <!--Golf3-->
+        <scene sceneID="8Wb-0i-4sQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Golf3" referencedIdentifier="Golf3" id="JqP-DR-zPD" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="av9-Be-pwl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VXy-6C-sC3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="664" y="107"/>
         </scene>
     </scenes>
     <resources>

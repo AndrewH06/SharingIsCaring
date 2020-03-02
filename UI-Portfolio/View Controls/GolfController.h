@@ -34,6 +34,9 @@
 @property (strong, nonatomic) IBOutlet UIImageView *makehole;
 @property (strong, nonatomic) IBOutlet UIImageView *nextlevel;
 @property (strong, nonatomic) IBOutlet UIImageView *secretbutton;
+@property (strong, nonatomic) IBOutlet UIImageView *circle;
+@property (strong, nonatomic) IBOutlet UIImageView *startspot;
+@property (strong, nonatomic) IBOutlet UIImageView *water;
 
 @property (strong, nonatomic) IBOutlet UITextField *won;
 @property (strong, nonatomic) IBOutlet UIButton *nextLevel;

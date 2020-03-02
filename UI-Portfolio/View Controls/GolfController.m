@@ -133,7 +133,14 @@
     
     if (CGRectIntersectsRect(self.ball.frame, self.button.frame)) {
         self.hole.center = CGPointMake(self.makehole.center.x, self.makehole.center.y);
+        self.circle.center = CGPointMake(self.makehole.center.x, self.makehole.center.y);
     }
+    
+    if (CGRectIntersectsRect(self.ball.frame, self.water.frame)) {
+        self.ball.center = CGPointMake(self.startspot.center.x, self.startspot.center.y);
+        self.ballVelocityX = 0;
+        self.ballVelocityY = 0;
+      }
     
     if
     (CGRectIntersectsRect(self.ball.frame, self.hole.frame)) {
